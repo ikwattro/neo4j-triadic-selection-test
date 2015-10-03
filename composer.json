@@ -1,0 +1,16 @@
+{
+    "name": "ikwattro/triadic-selection-test",
+    "description": "Test case testing Neo4j TriadicSelection performances",
+    "require": {
+        "neoxygen/neoclient": "^3.3",
+        "symfony/stopwatch": "^2.7",
+        "vlucas/phpdotenv": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christophe Willemsen",
+            "email": "willemsen.christophe@gmail.com"
+        }
+    ]
+}
