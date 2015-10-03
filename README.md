@@ -26,6 +26,13 @@ MERGE (p)-[:KNOWS]->(p2);
 
 ### Run the tests :
 
+Download this repo and install the dependencies :
+
+```bash
+git clone git@github.com:ikwattro/neo4j-triadic-selection-test
+composer install
+```
+
 Rename the `.env.dist` file to `.env` and adapt the settings of your neo4j db.
 
 Run :
