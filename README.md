@@ -2,8 +2,8 @@
 
 ### Settings :
 
-OS X Yosemite
-Xmx4GB
+* OS X Yosemite
+* Xmx4GB
 
 ### Dataset used : 
 
@@ -13,6 +13,7 @@ Xmx4GB
 
 Cypher Query used for loading the dataset :
 
+```
 USING PERIODIC COMMIT 500
 LOAD CSV FROM "file:///Users/cw/dev/_data/pokec.txt" AS line
 FIELDTERMINATOR "\t"
@@ -21,6 +22,7 @@ LIMIT 1000000
 MERGE (p:User {id: a})
 MERGE (p2:User {id:b})
 MERGE (p)-[:KNOWS]->(p2);
+```
 
 ### Run the tests :
 
